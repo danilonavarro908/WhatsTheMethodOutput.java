@@ -10,7 +10,7 @@ public class WhatsTheMethodOutput {
 
         nextYear = ++thisYear + CENTURY % 333;
         thisMonth = leap(nextYear,28);
-        System.out.println(thisYear + " " + nextYear + " da" + thisMonth);
+        System.out.println(thisYear + " " + nextYear + " " + thisMonth);
     }
     //-------------------------------------------------------------------------
     private static int leap(int february,double twentyNine) {
